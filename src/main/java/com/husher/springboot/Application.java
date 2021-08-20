@@ -7,6 +7,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
+ * From JeffLi1993/springboot-learning-example:
+ *      website: https://github.com/JeffLi1993/springboot-learning-example
+ *      github:  https://github.com/JeffLi1993/springboot-learning-example.git
+ *
  * Spring Boot应用启动类
  * @author 776216
  */
