@@ -1,11 +1,20 @@
 package com.husher;
 
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
 public class Jdk8Stream {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        Stream<String> lines = Files.lines(Paths.get("F:\\GSMS1.txt"), StandardCharsets.UTF_8);
+        Files.lines(Paths.get("F:\\GSMS1.txt"), StandardCharsets.UTF_8).forEach(System.out::println);
+        System.out.println("=========================================");
+        Stream<String> words = lines.flatMap(line -> Stream.of(line.split(" +")));
+        words.forEach(System.out::println);
         testFlatMap();
         testFilter();
     }
