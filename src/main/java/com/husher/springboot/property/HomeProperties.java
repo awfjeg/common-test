@@ -6,7 +6,9 @@ import org.springframework.stereotype.Component;
 /**
  * 家乡属性
  *
- * Created by bysocket on 17/04/2017.
+ *
+ * @author bysocket
+ * @date 17/04/2017
  */
 @Component
 @ConfigurationProperties(prefix = "home")

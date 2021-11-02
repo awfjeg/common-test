@@ -36,11 +36,11 @@
             <version>4.3</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.eclipse/swt -->
-        <dependency>
-            <groupId>org.eclipse</groupId>
-            <artifactId>swt</artifactId>
-            <version>3.3.0-v3346</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.eclipse</groupId>-->
+<!--            <artifactId>swt</artifactId>-->
+<!--            <version>3.3.0-v3346</version>-->
+<!--        </dependency>-->
 
         <!-- netty-->
         <!-- https://mvnrepository.com/artifact/io.netty/netty-all -->
