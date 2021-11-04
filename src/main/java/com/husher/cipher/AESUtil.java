@@ -15,7 +15,6 @@ import java.security.SecureRandom;
 /**
  * @ClassName AESUtil
  * @Description  AES加解密算法
- * @author qindc
  * @date  2020/7/27 10:01
  *
  */
@@ -83,7 +82,6 @@ public class AESUtil {
     }
 
     /**
-     * @author qindc
      * @date 2020/7/27 9:58
      * @Description  解密算法
      * @param   encodeRules  密钥
